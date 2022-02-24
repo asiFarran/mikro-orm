@@ -645,6 +645,7 @@ export class EntityManager<D extends IDatabaseDriver = IDatabaseDriver> {
     return count;
   }
 
+
   /**
    * Tells the EntityManager to make an instance managed and persistent.
    * The entity will be entered into the database at or before transaction commit or as a result of the flush operation.
